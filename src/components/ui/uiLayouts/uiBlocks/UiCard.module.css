@@ -1,0 +1,169 @@
+.outerComponent {
+  flex: 1.5;
+}
+
+.UICardComponent {
+  padding: 20px;
+}
+
+.UICardComponent > h2 {
+  font-size: 20px;
+  color: #1c1c1c;
+}
+
+.bottomBorder {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.bottomLine {
+  background-color: #eb3936;
+  width: 100px;
+  height: 4px;
+}
+
+.imageOuterContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.descriptionContainer {
+  padding: 10px 100px 10px 1px;
+}
+
+.descriptionContainer > p {
+  margin: 0 0 12px 0;
+  line-height: 130%;
+  color: #1c1c1c;
+}
+
+.listContainer {
+  padding: 10px 1px;
+}
+
+.list > li {
+  list-style-image: url("http://www.eurostarinn.com/khajuraho/images/list1.png");
+  margin: 0 0 12px 0;
+  line-height: 130%;
+  color: #1c1c1c;
+}
+
+.buttonBox {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  max-width: 8rem;
+  box-shadow: 5px 5px 5px #e8e8e8;
+  text-align: center;
+  text-decoration: none;
+}
+
+.buttonLink {
+  color: #000;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  max-width: 8rem;
+  box-shadow: 5px 5px 5px #e8e8e8;
+
+  font-weight: 500;
+  transition: 1s ease-in-out;
+}
+
+.buttonContainer {
+  margin-top: 35px;
+}
+
+.buttonLink:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.buttonLink:hover {
+  background-color: #eb3936;
+  color: #fff;
+}
+
+/* -- carousal ---- */
+
+.carousalContainer {
+  position: relative;
+}
+
+.carousalImage {
+  width: 32rem !important;
+  height: 267px !important;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.carousalImage > img {
+  width: 100%;
+  height: 100%;
+  transition: 3s ease-in;
+}
+
+@media only screen and (max-width: 1311px) {
+  .carousalImage {
+    width: 25rem !important;
+  }
+}
+
+@media only screen and (max-width: 1159px) {
+  .imageContainer > img {
+    width: 300px !important;
+  }
+  .descriptionContainer {
+    padding-right: 30px;
+  }
+  .carousalImage {
+    width: 23rem !important;
+  }
+}
+
+.icon_component_one,
+.icon_component_two {
+  padding: 1px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 45%;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.icon_component_one {
+  left: 3%;
+}
+
+.icon_component_two {
+  right: 14%;
+}
+
+.icons {
+  color: #000;
+  font-size: 22px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 430px) {
+  .carousalImage {
+    width: 22.5rem !important;
+  }
+  .icon_component_two {
+    right: 8%;
+  }
+  .buttonContainer {
+    align-items: center;
+    text-align: center;
+  }
+
+  .imageContainer > img {
+    width: 361px !important;
+  }
+}

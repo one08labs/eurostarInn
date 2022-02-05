@@ -1,11 +1,13 @@
 import React from "react";
 import HomeCarousel from "./ui/uiLayouts/HomeCarousel";
+import CardsComponent from "./uiComponents/CardsComponent";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <HomeCarousel />
-    </div>
+      <CardsComponent />
+    </>
   );
 };
 
